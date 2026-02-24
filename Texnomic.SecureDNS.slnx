@@ -1,0 +1,94 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="All" />
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="FilterLists.xlsx" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+    <File Path="RFCs.xlsx" />
+    <File Path="TLDs.xlsx" />
+  </Folder>
+  <Project Path="Texnomic.ENS.BaseRegistrar/Texnomic.ENS.BaseRegistrar.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.ENS.Infrastructure.Tests/Texnomic.ENS.Infrastructure.Tests.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.ENS.Infrastructure/Texnomic.ENS.Infrastructure.esproj">
+    <BuildType Solution="All|*" Project="Release" />
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Texnomic.ENS.PublicResolver/Texnomic.ENS.PublicResolver.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.FilterLists.Tests/Texnomic.FilterLists.Tests.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.FilterLists/Texnomic.FilterLists.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Abstractions/Texnomic.SecureDNS.Abstractions.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Automation.Tests/Texnomic.SecureDNS.Automation.Tests.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Automation/Texnomic.SecureDNS.Automation.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Benchmarks/Texnomic.SecureDNS.Benchmarks.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Core/Texnomic.SecureDNS.Core.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Data.Abstractions/Texnomic.SecureDNS.Data.Abstractions.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Data/Texnomic.SecureDNS.Data.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Extensions/Texnomic.SecureDNS.Extensions.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Middlewares/Texnomic.SecureDNS.Middlewares.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Protocols/Texnomic.SecureDNS.Protocols.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Serialization/Texnomic.SecureDNS.Serialization.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Servers/Texnomic.SecureDNS.Servers.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Terminal.Installer/Texnomic.SecureDNS.Terminal.Installer.aiproj" Type="840c416c-b8f3-42bc-b0dd-f6bb14c9f8cb">
+    <BuildType Project="Release" />
+    <Platform Project="?" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Terminal/Texnomic.SecureDNS.Terminal.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS.Tests/Texnomic.SecureDNS.Tests.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.SecureDNS/Texnomic.SecureDNS.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.Socks5.WebProxy/Texnomic.Socks5.WebProxy.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.Socks5/Texnomic.Socks5.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+  <Project Path="Texnomic.Sodium/Texnomic.Sodium.csproj">
+    <BuildType Solution="All|*" Project="Release" />
+  </Project>
+</Solution>
