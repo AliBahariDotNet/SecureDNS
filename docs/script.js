@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     const animatedElements = document.querySelectorAll(
-        '.section__header, .protocol-card, .feature-card, .platform-item, .arch-layer, .package-card, .cta'
+        '.section__header, .protocol-card, .feature-card, .platform-item, .arch-layer, .package-card, .integration-card, .video-card, .cta'
     );
 
     animatedElements.forEach(el => observer.observe(el));
@@ -79,24 +79,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- Particle-like floating dots on hero ---
-    const heroVisual = document.querySelector('.hero__shield');
-    if (heroVisual) {
-        for (let i = 0; i < 20; i++) {
+    // --- Particle-like floating dots around hero banner ---
+    const heroCharacter = document.querySelector('.hero__banner');
+    if (heroCharacter) {
+        for (let i = 0; i < 25; i++) {
             const dot = document.createElement('div');
+            const size = Math.random() * 3 + 1;
             dot.style.cssText = `
                 position: absolute;
-                width: ${Math.random() * 3 + 1}px;
-                height: ${Math.random() * 3 + 1}px;
-                background: rgba(0, 212, 255, ${Math.random() * 0.4 + 0.1});
+                width: ${size}px;
+                height: ${size}px;
+                background: rgba(0, 212, 255, ${Math.random() * 0.5 + 0.1});
                 border-radius: 50%;
                 top: ${Math.random() * 100}%;
                 left: ${Math.random() * 100}%;
                 animation: floatParticle ${Math.random() * 10 + 8}s ease-in-out infinite;
                 animation-delay: ${Math.random() * 5}s;
                 pointer-events: none;
+                z-index: 0;
             `;
-            heroVisual.appendChild(dot);
+            heroCharacter.appendChild(dot);
         }
 
         // Inject particle keyframes
